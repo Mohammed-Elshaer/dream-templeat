@@ -1,0 +1,37 @@
+.request{
+    text-align: center;
+    padding: $padding 0 ;
+    // overflow: auto;
+    position: relative;
+    background-image: url('../image/counter-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: $wihte;
+    @media only screen and (max-width: 767px)
+    {
+          height: auto;
+}
+    h2{
+        font-size: $Fsize + 34;
+        font-weight: 600;
+        letter-spacing: 5px;
+        margin: 25px 0;
+    }
+    p{
+        color: $childcolor;
+        font-size: $Fsize + 6;
+        letter-spacing: 5px;
+    }
+    
+}
+.forms{
+    margin-top: 20px;
+ }
+
+
+
+
+
+

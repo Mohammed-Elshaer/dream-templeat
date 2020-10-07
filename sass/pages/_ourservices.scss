@@ -1,0 +1,29 @@
+.our{
+    text-align: center;
+    padding: $padding 0 ;
+    h2{
+        color:$childcolor;
+        font-size: $Fsize + 26;
+    }
+        .icon{
+            padding: 20px 0 ;
+            transition: .8s;
+            cursor: pointer;
+            h3{
+                margin: 0 0 20px 0;
+            }
+            p{
+                color: #666666;
+                font-weight: 400;
+                line-height: 30px;
+                margin: 0 0 15px 0;
+                font-size: $Fsize + 6;
+               }
+            &:hover{
+                box-shadow: $box-shadow;
+            }
+           
+        }
+  
+ }
+    

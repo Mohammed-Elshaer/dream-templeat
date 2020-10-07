@@ -1,0 +1,14 @@
+.btn{
+    font-size:$Fsize + 6;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    color: $wihte;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: $btncolor;
+    margin: 40px 0;
+    &:hover{
+        color: $wihte;
+
+    }
+}

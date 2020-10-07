@@ -1,0 +1,21 @@
+header{
+    background-image: url('../image/hero.png');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: $wihte;
+    padding: $padding +200px 0;
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        max-width: 100%;
+        @media only screen and (max-width: 767px)
+        {
+            font-size: 2rem;
+
+   }
+    }
+
+}

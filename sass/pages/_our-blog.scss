@@ -1,0 +1,49 @@
+.our-blog{
+    text-align: center;
+    padding: $padding 0 ;
+    .card{
+        border-style: none;
+                    text-align: left;
+
+        h3{
+            font-family: "Cormorant Garamond", serif;
+            color: $threecolor;
+            font-size: $Fsize + 6;
+            margin-top: 10px;
+            line-height: 2;
+        }
+        p{
+            color:$childcolor;
+        font-size: $Fsize + 14;
+        line-height: 1.5;
+        margin-top: 10px;
+        }
+        span{
+            position: relative;
+            margin-right: 20px;
+        }
+        span::after{
+            position: absolute;
+            left: 127px;
+        right: 0;
+        bottom: 10px;
+            width: 5px;
+            height: 5px;
+            background: $childcolor;
+            ;
+            content: "";
+            margin: 0 auto;
+            border-radius: 50%;
+            transition: all, 0.3s;
+        }
+    }
+   
+}
+
+// <!-- ==========
+// start carousel
+// ========== -->
+.logos{
+    background: $carsulcolor;
+    padding: $padding - 50 0 ;
+}

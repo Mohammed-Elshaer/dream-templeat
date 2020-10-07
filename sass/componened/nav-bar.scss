@@ -1,0 +1,62 @@
+.navbar{
+    background-color: $wihte;
+    padding: 20px 0;
+   
+    .navbar-nav{
+        padding-left: 12px;
+       
+           
+        .active{
+           position: relative;
+           &::after {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -10px;
+            width: 5px;
+            height: 5px;
+            background: $childcolor;
+            content: "";
+            margin: 0 auto;
+            border-radius: 50%;
+            transition: all, 0.3s;
+            @media only screen and (max-width: 992px)
+            {
+                  opacity: 0;
+       }
+      
+       }
+        }
+        
+    }
+    .navbar-toggler{
+        background-color: black;
+        color: $wihte;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        margin-left: 10px;
+    }
+   .dropdown-item{
+       background-color: black;
+       color: $wihte;
+   }
+   .dropdown-menu{
+      padding: 0;
+   }
+    .nav-link{
+        font-size: $Fsize + 4;
+        color: $main-color !important;
+        text-transform: uppercase;
+                }
+                .fa-bars{
+                    color: $wihte;
+                }
+                    }
+        i{
+            color:$childcolor;
+        }
+    
+
+
+    
+   

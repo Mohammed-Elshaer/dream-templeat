@@ -1,0 +1,13 @@
+header {
+  background-image: url("../image/hero.png");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}

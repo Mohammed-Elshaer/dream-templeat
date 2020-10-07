@@ -1,0 +1,40 @@
+.tittel{
+    text-align: center;
+    margin-top: -115px;
+    margin-bottom:50px ;
+
+    .cap{
+        box-shadow: $box-shadow;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        .forms{
+            padding:0 20px;
+            .form-control{
+                margin-top: 20px;
+                height: 70px;
+            }
+         }
+            .img-fluid{
+                margin-top: -6px;
+            }
+        .image{
+            background-color: $threecolor;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            padding: 100px 0 ;
+            color: #fff;
+
+            h5{
+                letter-spacing: 7px;
+            }
+            h2{
+                margin: 20px 0;
+                color: #fff;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+            }
+    }
+   

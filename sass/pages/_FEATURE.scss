@@ -1,0 +1,59 @@
+.FEATURE{
+    text-align: center;
+    padding: $padding 0 ;
+    overflow: hidden;
+    position: relative;
+   .our-feature{
+    .col-md {
+        // position: relative;
+        width: 100%;
+        padding-right: 10;
+        padding-left: 0;}
+}
+   }
+    .img-fluid{
+        margin: 15px 0;
+        
+    }
+
+    h2{
+        color:$childcolor;
+        font-size: $Fsize + 26;
+    }
+    ul{
+        text-align: center;
+        padding: 25px 0;
+        .li::after {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -15px;
+            width: 5px;
+            height: 5px;
+            background: $childcolor;
+            content: "";
+            margin: 0 auto;
+            border-radius: 50%;
+            transition: all, 0.3s;
+    }
+        li{
+            font-size: $Fsize + 6;
+            color: $childcolor;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-right: 40px;
+            position: relative;
+            cursor: pointer;
+            padding: $padding - 90;
+            @media only screen and (max-width: 767px)
+                 {
+                        margin-bottom: 15px;
+                        margin-right: 15px;
+            }
+        }
+       
+    }
+
+    
+ 
+    

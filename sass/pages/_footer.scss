@@ -1,0 +1,55 @@
+.footer{
+    padding: $padding 0 0;
+    background-color: $footercolor;
+    color:$wihte;
+    img{
+        margin: 0 0 25px;
+
+    }
+    hr{
+                margin: 60px 0 60px;
+                background-color:$btncolor ;
+    }
+    h2{
+        color: $wihte ;
+        font-size: $Fsize + 6;
+        font-weight: 600;
+        margin: 0 0 25px;
+
+    }
+    h3{
+        color:$wihte;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: $Fsize + 15;
+        font-weight: 600;
+        font-size: $Fsize + 15;
+    }
+    p{
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    span, i{
+        color:$btncolor;
+    }
+    input{
+        width: 100%;
+        height: 50px;
+        background-color:$btncolor;
+        color:$wihte;
+        text-decoration: none;
+        border: none;
+    }
+    .social{
+        i{
+            color: $wihte;
+            margin: 10px;
+            background-color:$btncolor;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 50%;
+           text-align: center;
+        }
+    }
+}
