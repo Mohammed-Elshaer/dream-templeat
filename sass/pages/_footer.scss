@@ -31,19 +31,28 @@
     }
     span, i{
         color:$btncolor;
+        background-color: #fff;
+        border-left: none;
+        cursor: pointer;
     }
     input{
+        
         width: 100%;
         height: 50px;
-        background-color:$btncolor;
+       
+        // background-color:$btncolor;
         color:$wihte;
         text-decoration: none;
         border: none;
     }
+    .form-control{
+        outline: none;
+        box-shadow: none;
+    }
     .social{
         i{
             color: $wihte;
-            margin: 10px;
+            margin: 8px;
             background-color:$btncolor;
             width: 50px;
             height: 50px;

@@ -37,7 +37,7 @@
             transition: all, 0.3s;
     }
         li{
-            font-size: $Fsize + 6;
+            // font-size: $Fsize + 6;
             color: $childcolor;
             text-transform: uppercase;
             display: inline-block;
@@ -45,6 +45,9 @@
             position: relative;
             cursor: pointer;
             padding: $padding - 90;
+            &:hover{
+                @extend .li;
+            }
             @media only screen and (max-width: 767px)
                  {
                         margin-bottom: 15px;

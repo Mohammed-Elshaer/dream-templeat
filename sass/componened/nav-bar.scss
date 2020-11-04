@@ -4,7 +4,12 @@
    
     .navbar-nav{
         padding-left: 12px;
-       
+       .nav-item{
+           &:hover{
+            @extend .active;
+           }
+           
+       }
            
         .active{
            position: relative;

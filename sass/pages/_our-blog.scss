@@ -1,9 +1,15 @@
 .our-blog{
     text-align: center;
     padding: $padding 0 ;
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0;
+    }
     .card{
         border-style: none;
-                    text-align: left;
+        text-align: left;
 
         h3{
             font-family: "Cormorant Garamond", serif;
@@ -22,9 +28,9 @@
             position: relative;
             margin-right: 20px;
         }
-        span::after{
+        span::before{
             position: absolute;
-            left: 127px;
+            left: 130px;
         right: 0;
         bottom: 10px;
             width: 5px;
@@ -35,6 +41,11 @@
             margin: 0 auto;
             border-radius: 50%;
             transition: all, 0.3s;
+        }
+        .span::before{
+            @extend span;
+            left: 115px;
+
         }
     }
    
